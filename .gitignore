@@ -30,3 +30,6 @@ override.tf.json
 
 # Ignore Terraform dependency lock file.
 .terraform.lock.hcl
+
+# Ignore private key files.
+*.pem
