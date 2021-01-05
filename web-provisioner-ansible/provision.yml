@@ -1,0 +1,15 @@
+---
+- hosts: 127.0.0.1
+  connection: local
+  become: yes
+
+  tasks:
+    - name: Installing NGINX
+      package:
+        name: nginx
+        state: present
+    - name: Starting NGINX service
+      service:
+        name: nginx
+        state: started
+        enabled: yes
