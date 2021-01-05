@@ -15,14 +15,18 @@ The [Amazon Web Service](https://aws.amazon.com/) infrastructure as code I wrote
 $ git clone git@github.com:adhipras/the-terraform-book.git
 ```
 
-2. Go to the `base` directory.
+2. Go to the `base` or `web` directory.
 ```sh
 $ cd base
 ```
-
-3. Create a `secrets.tfvars` file.
+or
 ```sh
-$ vi secrets.tfvars
+$ cd web
+```
+
+3. Create a `terraform.tfvars` file.
+```sh
+$ vi terraform.tfvars
 ```
 
 4. Write down your Amazon Web Service access and secret keys.
@@ -33,8 +37,8 @@ secret_key = "XXX"
 
 5. Execute Terraform commands by including the `secrets.tfvars` file as additional variables.
 ```sh
-$ terraform plan -var-file=secrets.tfvars
-$ terraform apply -var-file=secrets.tfvars
+$ terraform plan
+$ terraform apply
 ```
 
 ## License
