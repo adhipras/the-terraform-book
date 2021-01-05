@@ -1,6 +1,6 @@
 # The Terraform Book - Chapter 2
 
-These are the Terraform configuration files from Chapter 2.
+These are the Terraform configuration files for Chapter 2.
 
 ## Usage
 
