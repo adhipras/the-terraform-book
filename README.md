@@ -8,39 +8,7 @@ The [Amazon Web Service](https://aws.amazon.com/) infrastructure as code I wrote
 2. [Amazon Web Service account](https://aws.amazon.com/free/)
 3. [Identity and Access Management for your Terraform service account](https://blog.gruntwork.io/an-introduction-to-terraform-f17df9c6d180#a9b0)
 4. [Amazon Web Service Command Line Interface](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html)
-
-## Usage
-
-1. Clone the Git repository.
-```sh
-$ git clone git@github.com:adhipras/the-terraform-book.git
-```
-
-2. Go to the `base` or `web` directory.
-```sh
-$ cd base
-```
-or
-```sh
-$ cd web
-```
-
-3. Create a `terraform.tfvars` file.
-```sh
-$ vi terraform.tfvars
-```
-
-4. Write down your Amazon Web Service access and secret keys.
-```
-access_key = "XXX"
-secret_key = "XXX"
-```
-
-5. Execute Terraform commands by including the `secrets.tfvars` file as additional variables.
-```sh
-$ terraform plan
-$ terraform apply
-```
+5. [Amazon Web Service Elastic Compute Cloud (EC2) key pair](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html#having-ec2-create-your-key-pair)
 
 ## License
 
