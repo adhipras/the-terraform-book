@@ -5,7 +5,7 @@ The [Amazon Web Service](https://aws.amazon.com/) infrastructure as code I wrote
 ## Prerequisites
 
 1. [Terraform](https://www.terraform.io/)
-2. [Amazon Web Service account](https://aws.amazon.com/free/)
+2. [Amazon Web Service account](https://aws.amazon.com/free/) (You may follow this [blog post](https://blog.gruntwork.io/an-introduction-to-terraform-f17df9c6d180#a9b0) by [Gruntwork](https://www.gruntwork.io/) for attaching the IAM policies to the service account)
 3. [Amazon Web Service Command Line Interface](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html)
 
 ## Usage
