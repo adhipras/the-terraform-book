@@ -25,7 +25,7 @@ access_key = "XXX"
 secret_key = "XXX"
 ```
 
-5. Execute Terraform commands by including the `secrets.tfvars` file as additional variables.
+5. Execute the Terraform `plan` and `apply` commands.
 ```sh
 $ terraform plan
 $ terraform apply
