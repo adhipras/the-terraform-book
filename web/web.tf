@@ -80,7 +80,7 @@ resource "aws_instance" "web" {
   private_ip                  = var.instance_ips[count.index]
   associate_public_ip_address = true
   vpc_security_group_ids      = [aws_security_group.web_host.id]
-  user_data                   = file("nginx.sh")
+  user_data                   = file("provision.sh")
   count                       = length(var.instance_ips)
 
   tags = {
