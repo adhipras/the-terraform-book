@@ -25,8 +25,9 @@ access_key = "XXX"
 secret_key = "XXX"
 ```
 
-5. Execute the Terraform `plan` and `apply` commands.
+5. Execute the Terraform commands.
 ```sh
+$ terraform init
 $ terraform plan
 $ terraform apply
 ```
